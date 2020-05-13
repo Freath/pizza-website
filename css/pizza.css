@@ -1,7 +1,122 @@
 body{
-	background-color: #F4F1F0
+	background-color: white;
 }
 header{
 	font-size: 45px;
 	font-style: bold;
 }
+
+nav{
+	background-color: #DD3D23;
+	height: 100px;
+	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.75);
+	position: sticky;
+	display: block;
+	top: 0;
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0 0 1em 0;
+
+}
+
+nav .logo{
+	display: block;
+	width: 400px
+	height:77px;
+	position: absolute; top:30px;
+	margin-top: -20px;
+	margin-left: 0px;
+}
+nav ul{
+	padding: 0;
+	margin: 0 20px 0 0;
+}
+nav ul li{
+	padding: 0;
+	margin:0;
+	display: block;
+	float: right;
+}
+nav ul a{
+	font-size: 30px;
+	text-transform: uppercase;
+	display: block;
+	box-sizing: border-box;
+	padding: 32px 15px;
+	color: white;
+	text-decoration: none;
+	font-family: 'Londrina Shadow', bold;
+	height: 100px;
+
+}
+h1{
+	font-family: 'Londrina Shadow', bold;
+	text-align: center;
+	font-size: 50px;
+	font-style: bold;
+}
+.title{
+}
+h2{
+	font-family: 'Londrina Shadow', bold;
+	color: red;
+	font-size: 30px;
+
+
+}
+
+/*	<div class="founders">
+		<div class="mum"><img src="img/mum.jpeg"></div>
+		<div class="dad"></div><img src="img/dad.JPG"></div>
+		<div class="will"><img src="img/will.jpeg"></div>
+		<div class="freddie"><img src="img/freddie.JPG"></div>
+	</div>
+	*/
+.founders{
+}
+
+.mum{
+	display: inline-block;
+	background: url(img/mum.jpeg);
+	width: 240px;
+	height: 320px;
+	background-position: center;
+
+}
+
+.dad{
+	display: inline-block;
+	background: url(img/dad.jpeg);
+	width: 240px;
+	height: 320px;
+	background-position: center;
+
+}
+
+.will{
+	display: inline-block;
+	background: url(img/will.jpeg);
+	width: 240px;
+	height: 320px;
+	background-position: center;
+
+}
+
+.freddie{
+	display: inline-block;
+	background: url(img/freddie.jpeg);
+	width: 240px;
+	height: 320px;
+	background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
