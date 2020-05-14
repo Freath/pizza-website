@@ -1,5 +1,11 @@
+p{
+	margin: 5px 0 10px 0;
+	font-family: 'Pangolin', sans-serif;
+	text-align: center;
+	color: white;
+}
 body{
-	background-color: #CFD8DC;
+	background-color: #DD3D23;
 }
 header{
 	font-size: 45px;
@@ -7,16 +13,16 @@ header{
 }
 
 nav{
-	background-color: #DD3D23;
+	background-color: #FFFAFA;
 	height: 100px;
 	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.75);
-	position: sticky;
 	display: block;
 	top: 0;
 	width: 100%;
 	float: left;
 	padding: 0;
 	margin: 0 0 1em 0;
+	position: sticky;
 
 }
 
@@ -27,6 +33,7 @@ nav .logo{
 	position: absolute; top:30px;
 	margin-top: -20px;
 	margin-left: 0px;
+	color: #DD3D23;
 }
 nav ul{
 	padding: 0;
@@ -44,38 +51,33 @@ nav ul a{
 	display: block;
 	box-sizing: border-box;
 	padding: 32px 15px;
-	color: white;
+	color: #DD3D23;
 	text-decoration: none;
 	font-family: 'Londrina Shadow', bold;
 	height: 100px;
 
 }
-h1{
+.title h1{
 	font-family: 'Londrina Shadow', bold;
 	text-align: center;
 	font-size: 50px;
 	font-style: bold;
+	color: white;
+
 }
-.title{
-}
+
 h2{
 	font-family: 'Londrina Shadow', bold;
-	color: red;
+	color: white;
 	font-size: 30px;
-
-
+	text-align: center;
 }
 
-/*	<div class="founders">
-		<div class="mum"><img src="img/mum.jpeg"></div>
-		<div class="dad"></div><img src="img/dad.JPG"></div>
-		<div class="will"><img src="img/will.jpeg"></div>
-		<div class="freddie"><img src="img/freddie.JPG"></div>
-	</div>
-	*/
+
 .founders{
 	height:400px;
 	width: auto;
+	color: #FF3333;
 }
 
 .mum{
@@ -85,8 +87,9 @@ h2{
 	height: 320px;
 	background-position: center;
 	margin-left: 192px;
-	position: relative;
-
+	position: static;
+	z-index: -1;
+	border: outset 5px #FFFAFA;
 }
 
 .dad{
@@ -96,8 +99,9 @@ h2{
 	height: 320px;
 	background-position: center;
 	margin-left: 20px;
-	position: relative;
-
+	position: static;
+	z-index: -1;
+	border: outset 5px #FFFAFA;
 
 }
 
@@ -108,7 +112,9 @@ h2{
 	height: 320px;
 	background-position: center;
 	margin-left: 20px;
-	position: relative;
+	position: static;
+	z-index: -1;
+	border: outset 5px #FFFAFA;
 
 }
 
@@ -119,16 +125,41 @@ h2{
 	height: 320px;
 	background-position: center;
 	margin-left: 20px;
-	position: relative;
+	position: static;
+	z-index: -1;
+	border: outset 5px #FFFAFA;
+
+}
+.about{
+	border: solid 5px white;
+	background-color: #DD3D23;
+	margin-bottom: 20px;
+	border-radius: 25px;
+	padding: 5px;
 
 }
 .about h2{
-	margin: 20px 0 5px 0;
+	margin: 5px 0 5px 0;
+	text-align: center;
+	color: white;
 }
 
 .about p{
 	margin: 5px 0 10px 0;
+	font-family: 'Pangolin', sans-serif;
+	text-align: center;
+	color: white;
 }
+.cookingprocess{
+	margin:30px 0 30px 0;
+	border: solid 5px white;
+	border-radius: 25px;
+	position: relative;
+	box-sizing: border-box;
+	z-index: -1;
+}
+
+
 
 
 
