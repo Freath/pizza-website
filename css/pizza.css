@@ -1,5 +1,5 @@
 body{
-	background-color: white;
+	background-color: #CFD8DC;
 }
 header{
 	font-size: 45px;
@@ -74,6 +74,8 @@ h2{
 	</div>
 	*/
 .founders{
+	height:400px;
+	width: auto;
 }
 
 .mum{
@@ -82,6 +84,8 @@ h2{
 	width: 240px;
 	height: 320px;
 	background-position: center;
+	margin-left: 192px;
+	position: relative;
 
 }
 
@@ -91,6 +95,9 @@ h2{
 	width: 240px;
 	height: 320px;
 	background-position: center;
+	margin-left: 20px;
+	position: relative;
+
 
 }
 
@@ -100,6 +107,8 @@ h2{
 	width: 240px;
 	height: 320px;
 	background-position: center;
+	margin-left: 20px;
+	position: relative;
 
 }
 
@@ -109,10 +118,17 @@ h2{
 	width: 240px;
 	height: 320px;
 	background-position: center;
+	margin-left: 20px;
+	position: relative;
+
+}
+.about h2{
+	margin: 20px 0 5px 0;
 }
 
-
-
+.about p{
+	margin: 5px 0 10px 0;
+}
 
 
 
