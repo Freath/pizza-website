@@ -1,12 +1,11 @@
-p{
-	margin: 5px 0 10px 0;
-	font-family: 'Pangolin', sans-serif;
-	text-align: center;
-	color: white;
+html{
+	height: 10000px;
 }
 body{
+	height:100%;
 	background-color: #DD3D23;
 }
+
 header{
 	font-size: 45px;
 	font-style: bold;
@@ -23,6 +22,7 @@ nav{
 	padding: 0;
 	margin: 0 0 1em 0;
 	position: sticky;
+	z-index: 20;
 
 }
 
@@ -73,11 +73,17 @@ h2{
 	text-align: center;
 }
 
-
+p{
+	margin: 5px 0 10px 0;
+	font-family: 'Pangolin', sans-serif;
+	text-align: center;
+	color: white;
+	position: relative;
+}
 .founders{
 	height:400px;
 	width: auto;
-	color: #FF3333;
+	z-index: -1;
 }
 
 .mum{
@@ -142,6 +148,7 @@ h2{
 	margin: 5px 0 5px 0;
 	text-align: center;
 	color: white;
+	z-index: -1;
 }
 
 .about p{
@@ -155,8 +162,9 @@ h2{
 	border: solid 5px white;
 	border-radius: 25px;
 	position: relative;
-	box-sizing: border-box;
-	z-index: -1;
+	height: auto;
+	width:auto;
+
 }
 
 
