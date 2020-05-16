@@ -3,7 +3,7 @@ html{
 }
 body{
 	height:100%;
-	background-color: #DD3D23;
+	background-color: #d5340c;
 }
 
 header{
@@ -81,9 +81,11 @@ p{
 	position: relative;
 }
 .founders{
-	height:400px;
+	height:auto;
 	width: auto;
 	z-index: -1;
+	text-align: center;
+
 }
 
 .mum{
@@ -92,10 +94,11 @@ p{
 	width: 240px;
 	height: 320px;
 	background-position: center;
-	margin-left: 192px;
+	margin-left: 0;
 	position: static;
 	z-index: -1;
 	border: outset 5px #FFFAFA;
+
 }
 
 .dad{
@@ -157,19 +160,36 @@ p{
 	text-align: center;
 	color: white;
 }
-.cookingprocess{
-	margin:30px 0 30px 0;
+
+.third{
+	margin: 30px 0 30px 0;
 	border: solid 5px white;
 	border-radius: 25px;
 	position: relative;
 	height: auto;
 	width:auto;
+	overflow: hidden;
+	display: inline-block;
 
 }
 
+.pizzapara{
+	display: inline;
+}
 
-
-
+.calzone{
+	width:auto;
+	height:400px;
+	float: right;
+	display: inline;
+}
+.otherpizza{
+	width:auto;
+	height:400px;
+	float: right;
+	display: inline;
+	clear: right;
+}
 
 
 
