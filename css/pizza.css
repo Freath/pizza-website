@@ -3,7 +3,7 @@ html{
 }
 body{
 	height:100%;
-	background-color: #d5340c;
+	background-color: #f6f8f9;
 }
 
 header{
@@ -12,7 +12,7 @@ header{
 }
 
 nav{
-	background-color: #FFFAFA;
+	background-color: #d5340c;
 	height: 100px;
 	box-shadow: 0 5px 8px rgba(0, 0, 0, 0.75);
 	display: block;
@@ -51,7 +51,7 @@ nav ul a{
 	display: block;
 	box-sizing: border-box;
 	padding: 32px 15px;
-	color: #DD3D23;
+	color: #f6f8f9;
 	text-decoration: none;
 	font-family: 'Londrina Shadow', bold;
 	height: 100px;
@@ -62,7 +62,7 @@ nav ul a{
 	text-align: center;
 	font-size: 50px;
 	font-style: bold;
-	color: white;
+	color: #d5340c;
 
 }
 
@@ -97,7 +97,7 @@ p{
 	margin-left: 0;
 	position: static;
 	z-index: -1;
-	border: outset 5px #FFFAFA;
+	border: outset 5px #d5340c;
 
 }
 
@@ -110,7 +110,7 @@ p{
 	margin-left: 20px;
 	position: static;
 	z-index: -1;
-	border: outset 5px #FFFAFA;
+	border: outset 5px #d5340c;
 
 }
 
@@ -123,7 +123,7 @@ p{
 	margin-left: 20px;
 	position: static;
 	z-index: -1;
-	border: outset 5px #FFFAFA;
+	border: outset 5px #d5340c;
 
 }
 
@@ -136,12 +136,12 @@ p{
 	margin-left: 20px;
 	position: static;
 	z-index: -1;
-	border: outset 5px #FFFAFA;
+	border: outset 5px #d5340c;
 
 }
 .about{
 	border: solid 5px white;
-	background-color: #DD3D23;
+	background-color: #d5340c;
 	margin-bottom: 20px;
 	border-radius: 25px;
 	padding: 5px;
@@ -170,6 +170,7 @@ p{
 	width:auto;
 	overflow: hidden;
 	display: inline-block;
+	background-color: #d5340c;
 
 }
 
@@ -182,16 +183,110 @@ p{
 	height:400px;
 	float: right;
 	display: inline;
+	margin: 10px;
 }
-.otherpizza{
-	width:auto;
-	height:400px;
+
+.signup{
+	height: auto;
+	width: 50%;
+	background-color: #d5340c;
+	border:solid 5px white;
+	border-radius: 25px;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+}
+.cook{
+	text-align: center;
+	display: block;
+}
+
+.cta {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	background-color:#f9f9f9;
+	border-radius:18px;
+	border:4px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:23px;
+	font-weight:bold;
+	padding:9px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.cta:hover {
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	background-color:#e9e9e9;
+}
+.cta:active {
+	position:relative;
+	top:1px;
+}
+
+/*<div class="fourth">
+		<div class="signup">
+			<h2>Newsletter Sign Up</h2>
+			<p>Sign up to the newsletter to recieve discounts and all the up to date information on our pizzas</p>
+			<button class="cta">Sign me up</button>
+			<div class="cook"><img src="img/pizzabottom.png" height="400px" width="auto"></div>
+		</div>
+
+	<div class="pizza-styles">
+		<h2>Pizza Types</h2>
+		<ul class="pizza-list"> 
+			<li class="black sepcial">Margherita</li>
+			<li class="red">Pepperoni</li>
+			<li class="yellow">Hawaiian</li>
+			<li class="brown">BBQ Chicken </li>
+			<li class="green">Veggie</li>
+			<li class="blue">Vegan</li>
+		</ul>
+	</div>
+</div>
+</div>*/
+
+.pizza-styles{
+	height: auto;
+	width: 40%;
+	border:solid 5px white;
+	border-radius: 25px;
+	text-align: center;
+	position: relative;
+	display: block;
 	float: right;
-	display: inline;
-	clear: right;
+}
+.pizza-styles h2{
+	color:#d5340c;
+}
+.pizza-list{
+	width: 470px
+}
+.pizza-list li{
+	height: 70px;
+	border-radius: 10px;
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	display: block;
+	background-color: grey;
 }
 
+.pizza-list li.black{
+	background-color: black;
+	margin:10px;
+}
 
+.pizza-list li.red{background-color: red;}
 
+.pizza-list li.yellow{background-color: yellow;}
 
+.pizza-list li.purple{background-color: purple;}
 
+.pizza-list li.green{background-color: green;}
+
+.pizza-list li.blue{background-color: blue;}
