@@ -1,5 +1,5 @@
 html{
-	height: 10000px;
+	height: auto;
 }
 body{
 	height:100%;
@@ -173,6 +173,12 @@ p{
 	background-color: #d5340c;
 
 }
+.fourth{
+	height: auto;
+	width: auto;
+	display: flex;
+	position: relative;
+}
 
 .pizzapara{
 	display: inline;
@@ -188,7 +194,7 @@ p{
 
 .signup{
 	height: auto;
-	width: 50%;
+	width: 49%;
 	background-color: #d5340c;
 	border:solid 5px white;
 	border-radius: 25px;
@@ -228,65 +234,64 @@ p{
 	top:1px;
 }
 
-/*<div class="fourth">
-		<div class="signup">
-			<h2>Newsletter Sign Up</h2>
-			<p>Sign up to the newsletter to recieve discounts and all the up to date information on our pizzas</p>
-			<button class="cta">Sign me up</button>
-			<div class="cook"><img src="img/pizzabottom.png" height="400px" width="auto"></div>
-		</div>
-
-	<div class="pizza-styles">
-		<h2>Pizza Types</h2>
-		<ul class="pizza-list"> 
-			<li class="black sepcial">Margherita</li>
-			<li class="red">Pepperoni</li>
-			<li class="yellow">Hawaiian</li>
-			<li class="brown">BBQ Chicken </li>
-			<li class="green">Veggie</li>
-			<li class="blue">Vegan</li>
-		</ul>
-	</div>
-</div>
-</div>*/
-
 .pizza-styles{
-	height: auto;
-	width: 40%;
+	width: 49%;
 	border:solid 5px white;
 	border-radius: 25px;
 	text-align: center;
-	position: relative;
 	display: block;
 	float: right;
+	background-color: #d5340c;
+	position: relative;
+
 }
 .pizza-styles h2{
-	color:#d5340c;
+	color:white;
+	text-align: center;
+}
+.pizza-styles h3{
+	color: white;
+	font-weight: bold;
 }
 .pizza-list{
-	width: 470px
+	height: auto;
+	width: 375px;
+	background-color: #ededed;
+	box-sizing: border-box;
+	padding: 20px 20px 0 20px;
+	border-radius: 10px;
+	text-align: center;
+	margin:10px 10px 20px 20px;
+	float: left;
+
 }
 .pizza-list li{
-	height: 70px;
+	height: auto;
+	width: auto;
 	border-radius: 10px;
 	font-size: 30px;
 	color: white;
 	font-weight: bold;
 	display: block;
-	background-color: grey;
+	margin-bottom: 20px;
+	padding: 5px 20px;
+	box-sizing: border-box;
 }
 
-.pizza-list li.black{
-	background-color: black;
-	margin:10px;
+.pizza-list li.black{background-color: #5DADE2;}
+
+.pizza-list li.red{background-color: #A569BD;}
+
+.pizza-list li.grey{background-color: grey;}
+
+.pizza-list li.yellow{background-color: #EC7063;}
+
+.pizza-list li.purple{background-color: #F5B041;}
+
+.pizza-list li.green{background-color: #52BE80;}
+
+.pizza-list li.blue{background-color: #AAB7B8;}
+
+footer p{
+	color: black;
 }
-
-.pizza-list li.red{background-color: red;}
-
-.pizza-list li.yellow{background-color: yellow;}
-
-.pizza-list li.purple{background-color: purple;}
-
-.pizza-list li.green{background-color: green;}
-
-.pizza-list li.blue{background-color: blue;}
