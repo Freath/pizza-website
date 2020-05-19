@@ -194,7 +194,7 @@ p{
 
 .signup{
 	height: auto;
-	width: 49%;
+	width: 50%;
 	background-color: #d5340c;
 	border:solid 5px white;
 	border-radius: 25px;
@@ -235,7 +235,7 @@ p{
 }
 
 .pizza-styles{
-	width: 49%;
+	width: 50%;
 	border:solid 5px white;
 	border-radius: 25px;
 	text-align: center;
