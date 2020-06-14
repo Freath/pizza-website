@@ -295,3 +295,136 @@ p{
 footer p{
 	color: black;
 }
+
+/*<div class="popup">
+	<div class="blanket"></div>
+	<div class="content">
+		<h2>Fill in Your details!</h2>
+		<form action="">
+
+		<div class="item">
+			<label>Your First Name</label>
+			<input type="text" placeholder="Name">
+		</div>
+
+		<div class="item">
+			<label>Your Last Name</label>
+			<input type="text" placeholder="Name">
+		</div>
+
+			<div class="item">
+			<label>Your Email </label>
+			<input type="text" placeholder="@hotmail">
+		</div>
+
+		<div class="item">
+			<label>Your Fave Pizza</label>
+			<input type="text" placeholder="Pizza">
+		</div>
+		<button class="cta">i Want In!</button>
+		
+		</form>
+		<button class="close"> close</button>
+	</div>
+</div>*/
+
+.popup{
+	display: none;
+	position: fixed;
+	top: 0;
+	right:0;
+	bottom: 0;
+	left: 0;
+	z-index: 22;
+}
+
+.popup.show{
+	display: block;
+}
+
+.popup .blanket{
+	background-color: rgb(0,0,0,.7);
+	position: absolute;
+	top: 0;
+	right:0;
+	bottom: 0;
+	left: 0;
+	height: auto;
+	size: auto;
+}
+.popup .content{
+	text-align: center;
+	box-sizing: border-box;
+	padding: 30,40;
+	width: 960px;
+	background-color: white;
+	z-index: 22;
+	position: absolute;
+	height: auto;
+	left: 50%; 
+	margin-left:-480px;
+	top: 50%;
+	margin-top:-240px;
+}
+
+.popup h2{
+	color: black;
+	font-size: 60px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.popup .close{
+	height: 80px;
+	width:80px;
+	border-radius: 80px;
+	position: absolute;
+	background: white url(img/close.png) no-repeat center center;
+	border-style: none;
+	outline: none;
+	overflow: hidden;
+	top: -25px;
+	right:-25px;
+	cursor: pointer;
+	
+}
+
+.popup .row{
+	display: block;
+
+}
+
+.popup .item{
+	box-sizing: border-box;
+	width: 415px;
+	display: block;
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 80px;
+	text-align:center;
+
+}
+
+.popup .item label{
+	font-size: 40px;
+	font-family: 'Londrina Shadow', bold;
+	text-align: center;
+
+}
+
+.popup .item input[type = 'text']{
+	display: block;
+	font-size: 35px;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	text-decoration-color: black;
+	box-sizing: border-box;
+	height: 50px;
+	width: 100%;
+	padding: 15px 20px;
+}
+.popup .cta{
+	margin-top: -35px;
+}

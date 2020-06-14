@@ -67,7 +67,7 @@
 		<div class="signup">
 			<h2>Newsletter Sign Up</h2>
 			<p>Sign up to the newsletter to recieve discounts and all the up to date information on our pizzas</p>
-			<button class="cta">Sign me up</button>
+			<button class="cta" onclick="showPopup ();">Sign me up</button>
 			<div class="cook"><img src="img/pizzabottom.png" height="400px" width="auto"></div>
 		</div>
 
@@ -93,12 +93,12 @@
 	<p>Made by Freddie Heath</p>
 </footer>	
 
-<div class="popup">
+<div class="popup" id="popup">
 	<div class="blanket"></div>
 	<div class="content">
 		<h2>Fill in Your details!</h2>
 		<form action="">
-
+<div class="row">
 		<div class="item">
 			<label>Your First Name</label>
 			<input type="text" placeholder="Name">
@@ -108,7 +108,8 @@
 			<label>Your Last Name</label>
 			<input type="text" placeholder="Name">
 		</div>
-
+</div>
+<div class="row">
 			<div class="item">
 			<label>Your Email </label>
 			<input type="text" placeholder="@hotmail">
@@ -118,13 +119,16 @@
 			<label>Your Fave Pizza</label>
 			<input type="text" placeholder="Pizza">
 		</div>
-		<button class="cta">i Want In!</button>
-		
+		<button class="cta">I Want In!</button>
+		</div>
 		</form>
-		<button class="close"> close</button>
+		<button class="close" onclick="hidePopup ();"> </button>
 	</div>
 </div>
 		
 	</div>
+
+<script src="script.js" type="text/javascript"></script>
+
 </body>
 </html>
